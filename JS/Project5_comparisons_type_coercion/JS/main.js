@@ -36,3 +36,11 @@ function logic_function2 () { //creating and naming the function
 function logic_function3 () { //creating and naming function
     document.write(!(5 > 2 && 10 > 4)); //call method and operator
 }
+
+
+function Ride_Function () {
+    var Height, Can_ride;
+    Height = document.getElementById("Height").value;
+    Can_ride = (Height < 52) ? "You are too short":"You are tall enough";
+    document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
+}
