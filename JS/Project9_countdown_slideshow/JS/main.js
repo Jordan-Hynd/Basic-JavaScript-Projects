@@ -1,4 +1,4 @@
-/*function countdown () {
+function countdown () {
     var seconds = document.getElementById("seconds").value;
 
     function tick() {
@@ -10,7 +10,7 @@
     } 
         }
     tick();
-} */
+} 
 
 
 var slideIndex = 1;
